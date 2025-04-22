@@ -74,6 +74,7 @@ export default function Home() {
               "training",
               "education",
               "contact",
+              "resume",
             ].map((item) => (
               <button
                 key={item}
