@@ -110,6 +110,7 @@ export default function Home() {
                 "training",
                 "education",
                 "contact",
+                "resume",
               ].map((item) => (
                 <button
                   key={item}
@@ -547,7 +548,34 @@ export default function Home() {
             </div>
           </div>
         </section>
-
+        {/* Resume Section */}
+        <section id="resume" className="py-20 bg-muted/10">
+          <div className="container mx-auto px-4">
+            <h2 className="text-3xl font-bold mb-12 text-center">Resume</h2>
+            <div className="max-w-3xl mx-auto text-center">
+              <p className="text-lg mb-6">
+                You can view or download my resume below.
+              </p>
+              <div className="flex justify-center space-x-4">
+                <a
+                  href="/resume.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-primary text-white px-6 py-2 rounded-md hover:bg-primary/90 transition-colors"
+                >
+                  View Resume
+                </a>
+                <a
+                  href="/resume.pdf"
+                  download
+                  className="bg-secondary text-primary px-6 py-2 rounded-md hover:bg-secondary/80 transition-colors"
+                >
+                  Download Resume
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
         {/* Training Section */}
         <section id="training" className="py-20">
           <div className="container mx-auto px-4">
