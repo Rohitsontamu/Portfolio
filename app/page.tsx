@@ -71,10 +71,11 @@ export default function Home() {
               "about",
               "skills",
               "projects",
+              "resume",
               "training",
               "education",
               "contact",
-              "resume",
+              
             ].map((item) => (
               <button
                 key={item}
@@ -108,10 +109,11 @@ export default function Home() {
                 "about",
                 "skills",
                 "projects",
+                "resume",
                 "training",
                 "education",
                 "contact",
-                "resume",
+                
               ].map((item) => (
                 <button
                   key={item}
