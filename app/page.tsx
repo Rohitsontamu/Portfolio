@@ -386,40 +386,6 @@ export default function Home() {
                   </CardContent>
                 </Card>
 
-                {/* Soft Skills */}
-                <Card className="md:col-span-2">
-                  <CardContent className="p-6">
-                    <h3 className="text-xl font-bold mb-4">Soft Skills</h3>
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                      <div className="bg-primary/10 p-4 rounded-lg">
-                        <h4 className="font-semibold mb-2">Team Player</h4>
-                        <p className="text-sm text-muted-foreground">
-                          Excellent collaboration and communication in group
-                          projects
-                        </p>
-                      </div>
-                      <div className="bg-primary/10 p-4 rounded-lg">
-                        <h4 className="font-semibold mb-2">Adaptability</h4>
-                        <p className="text-sm text-muted-foreground">
-                          Quick to learn and adapt to new technologies and
-                          situations
-                        </p>
-                      </div>
-                      <div className="bg-primary/10 p-4 rounded-lg">
-                        <h4 className="font-semibold mb-2">Time Management</h4>
-                        <p className="text-sm text-muted-foreground">
-                          Efficient in handling multiple tasks and meeting
-                          deadlines
-                        </p>
-                      </div>
-                    </div>
-                  </CardContent>
-                </Card>
-              </div>
-            </div>
-          </div>
-        </section>
-
         {/* Projects Section */}
         <section id="projects" className="py-20 bg-muted/30">
           <div className="container mx-auto px-4">
